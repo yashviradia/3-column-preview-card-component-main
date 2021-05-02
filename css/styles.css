@@ -30,15 +30,24 @@ p {
 
 .sedan {
   background-color: hsl(31, 77%, 52%);
+  height: 600px;
   padding: 30px;
+  width: 300px;
 }
 
 .suv {
   background-color: hsl(184, 100%, 22%);
+  height: 600px;
+  margin-left: 360px;
   padding: 30px;
+  width: 300px;
+
 }
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  height: 600px;
+  margin-left: 720px;
   padding: 30px;
+  width: 300px;
 }

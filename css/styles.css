@@ -39,19 +39,23 @@ p {
 
 .suv {
   background-color: hsl(184, 100%, 22%);
-  display: inline-block;
+  display: block;
   height: 500px;
-  margin-left: 0px;
+  left: 360px;
+  bottom: 560px;
   padding: 30px;
   width: 300px;
+  position: relative;
 }
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  display: block;
   height: 500px;
-  margin-left: 0px;
+  left: 720px;
+  bottom: 1120px;
   padding: 30px;
   width: 300px;
-  display: inline-block;
+  position: relative;
 
 }

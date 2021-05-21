@@ -3,11 +3,12 @@
 body {
   font-size: 15px;
   text-align: left;
+  font-family: verdana, sans-serif;
 }
 
 h1 {
   color: hsla(0, 0%, 100%, 0.75);
-  font-family: "Lexend-Deca"
+  font-family: verdana, sans-serif;
 }
 
 p {

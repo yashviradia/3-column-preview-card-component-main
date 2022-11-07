@@ -1,0 +1,15 @@
+@import './_colors';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+.lexend-deca {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: $transparent-white;
+}
+
+.big-shoulders-display {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: $very-light-gray;
+}

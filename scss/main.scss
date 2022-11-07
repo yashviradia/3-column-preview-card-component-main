@@ -1,0 +1,144 @@
+// common imports
+@import './_colors';
+@import './_typography';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    @extend .lexend-deca; 
+    background-color: $very-light-gray;
+    color: $transparent-white;
+    font-size: 0.9375rem;
+    margin: auto;
+}
+
+h1 {
+    @extend .big-shoulders-display;
+    text-transform: uppercase;
+    margin: 25px 0 25px 0;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+
+
+/* layout */
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.main-container {
+    display: flex;
+    width: 900px;
+    align-items: stretch;
+}
+
+.col {
+    padding: 3rem;
+    width: 33%;
+    color: $very-light-gray;
+    text-align: start;
+}
+
+.sedan {
+    background-color: $bright-orange;
+    border-radius: 10px 0 0 10px;
+}
+
+.suv {
+    background-color: $dark-cyan;
+}
+
+.luxury {
+    background-color: $very-dark-cyan;
+    border-radius: 0 10px 10px 0;
+}
+
+/* buttons */
+
+button {
+    @extend .lexend-deca;
+    padding: 1rem;
+    border-radius: 50px;
+    width: 70%;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 4rem;
+    border: 2px solid transparent;
+}
+
+.luxury button {
+    color: $very-dark-cyan;
+}
+
+.suv button {
+    color: $dark-cyan;
+}
+
+.sedan button {
+    color: $bright-orange;
+}
+
+button:hover {
+    border: 2px solid $very-light-gray;
+    color: inherit;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 2em 3em;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        overflow: hidden;
+    }
+
+    .main-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .col {
+        padding: 3rem;
+        width: 90%;
+        max-width: 90%;
+        text-align: start;
+    }
+
+    .sedan {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+
+}
+
+
+/* footer */
+.attribution {
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: grey;
+}
